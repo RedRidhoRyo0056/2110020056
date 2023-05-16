@@ -1,0 +1,364 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 607
+  ClientWidth = 689
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Franklin Gothic Medium'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 15
+  object Panel1: TPanel
+    Left = 24
+    Top = 8
+    Width = 593
+    Height = 361
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 113
+      Top = 9
+      Width = 89
+      Height = 21
+      Caption = 'Id Pengprov :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 19
+      Top = 41
+      Width = 183
+      Height = 21
+      Caption = 'Nama Cabang Olaharaga :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 125
+      Top = 146
+      Width = 77
+      Height = 21
+      Caption = 'Sekretaris :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 91
+      Top = 76
+      Width = 111
+      Height = 21
+      Caption = 'Tanggal berdiri :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 153
+      Top = 111
+      Width = 49
+      Height = 21
+      Caption = 'Ketua :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 143
+      Top = 184
+      Width = 59
+      Height = 21
+      Caption = 'Alamat :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 126
+      Top = 219
+      Width = 76
+      Height = 21
+      Caption = 'Kab/Kota :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 143
+      Top = 261
+      Width = 59
+      Height = 21
+      Caption = 'No.Telp :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 139
+      Top = 293
+      Width = 63
+      Height = 21
+      Caption = 'Website :'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+    end
+    object edit_id: TEdit
+      Left = 208
+      Top = 6
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object edit_cabor: TEdit
+      Left = 208
+      Top = 41
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object edit_ketua: TEdit
+      Left = 208
+      Top = 111
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+    end
+    object edit_sekretaris: TEdit
+      Left = 208
+      Top = 146
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+    end
+    object edit_alamat: TEdit
+      Left = 208
+      Top = 181
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+    end
+    object edit_kota: TEdit
+      Left = 208
+      Top = 216
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+    end
+    object edit_telp: TEdit
+      Left = 208
+      Top = 258
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+    end
+    object edit_web: TEdit
+      Left = 208
+      Top = 293
+      Width = 273
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Franklin Gothic Medium'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 7
+    end
+    object dt_tglberdiri: TDateTimePicker
+      Left = 208
+      Top = 76
+      Width = 273
+      Height = 23
+      Date = 45061.000000000000000000
+      Time = 0.890743958334496700
+      TabOrder = 8
+    end
+    object bt_simpan: TButton
+      Left = 208
+      Top = 328
+      Width = 273
+      Height = 25
+      Caption = 'SIMPAN'
+      TabOrder = 9
+      OnClick = bt_simpanClick
+    end
+    object bt_bersih: TButton
+      Left = 127
+      Top = 328
+      Width = 75
+      Height = 25
+      Caption = 'BERSIH'
+      TabOrder = 10
+      OnClick = bt_bersihClick
+    end
+  end
+  object DBGridpengprov: TDBGrid
+    Left = 24
+    Top = 407
+    Width = 593
+    Height = 114
+    DataSource = master01.Dspengprov
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Franklin Gothic Medium'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'id_pengprov'
+        Title.Caption = 'Id'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'nama_cabor'
+        Title.Caption = 'Cabang Olahraga'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'tgl_berdiri'
+        Title.Caption = 'Tanggal Berdiri'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'ketua'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'sekretaris'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'alamat'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'kab/kota'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'tlp'
+        Title.Caption = 'Nomor Telepon'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'website'
+        Visible = True
+      end>
+  end
+  object editfilter: TEdit
+    Left = 24
+    Top = 372
+    Width = 593
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Franklin Gothic Medium'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object bt_hapus: TButton
+    Left = 24
+    Top = 527
+    Width = 306
+    Height = 25
+    Caption = 'HAPUS'
+    TabOrder = 3
+    OnClick = bt_hapusClick
+  end
+  object bt_ubah: TButton
+    Left = 336
+    Top = 527
+    Width = 281
+    Height = 25
+    Caption = 'UBAH'
+    TabOrder = 4
+  end
+end

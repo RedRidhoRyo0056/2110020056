@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/15 20:54:15.000.995,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 20:54:41.000.586,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 21:14:02.000.536,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\pengprov.dfm</Transaction>
+    <Transaction>2023/05/15 21:14:02.000.536,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\pengprov.pas</Transaction>
+    <Transaction>2023/05/15 21:15:35.000.735,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\Ridho_56.dproj</Transaction>
+    <Transaction>2023/05/15 22:30:34.000.393,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 22:47:10.000.248,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\mastermodule.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\Unit1.dfm</Transaction>
+    <Transaction>2023/05/15 22:47:10.000.248,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\mastermodule.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Praktikum 0056\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
